@@ -1,0 +1,198 @@
+body
+{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: hsl(0, 0%, 93%);
+}
+
+.container
+{
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	border: 1px solid black;
+	margin: 10px 30% auto;
+	text-align: center;
+	background-color: white;
+}
+
+header
+{
+	margin-top: 1em;
+}
+
+header img
+{
+	display: block;
+	margin: auto;
+}
+
+header h1
+{
+	font-family: 'Oswald', sans-serif;
+	margin: 10px 20px auto;
+	padding: 10px 20px auto;
+	text-align: center;
+	border-top: solid hsl(0, 100%, 27%);
+	border-bottom: solid hsl(0, 100%, 27%);
+	font-size: 60px;
+	font-weight: bold;
+}
+
+header h1 span
+{
+	font-family: 'Oswald', sans-serif;
+	background-color: black;
+	color: white;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px;
+	padding: 15px 15px;
+}
+
+main
+{
+	margin: auto;
+	width: 768px;
+}
+
+.articles
+{
+	background-color: hsl(0, 0%, 93%);
+	padding: 3em;
+	margin: 10px 50px auto;
+}
+
+main h2
+{
+	padding: 1em;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+}
+
+main img
+{
+	display: block;
+	margin: auto;
+	height: 15%;
+	width: 15%;
+}
+
+main p
+{
+	margin: 20px 10px auto;
+	font-size: 16px;
+}
+
+main p dfn
+{
+	font-weight: bold;
+}
+
+main em
+{
+	border-top: solid #535353;
+	display: block;
+	font-size: 14px;
+	margin: 30px 0% auto;
+	padding: 15px;
+	font-style: italic;
+}
+
+main h3
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: hsl(0, 100%, 27%);
+	text-align: center;
+}
+
+.articles2
+{
+	padding: 1em;
+}
+
+.Titrepadding
+{
+       padding: 10px;
+}
+
+section ul
+{
+	margin: 10px 10px auto;
+}
+
+section a
+{
+	display: block;
+}
+
+.boxlink
+{
+	text-align: center;
+	background-color: hsl(0, 0%, 93%);
+	border: solid hsl(0, 0%, 93%);
+	border-radius: 1em;
+	color: hsl(0, 50%, 42%);
+	text-transform: uppercase;
+	margin: 8px 8px auto;
+       padding: 5px;
+}
+
+.Miniature
+{
+	padding: 1em;
+	border: solid hsl(0, 0%, 93%);
+}
+
+#articles3
+{
+	text-align: center;
+}
+
+#articles3 img
+{
+	display: block;
+}
+
+h4
+{
+	font-size: 22px;
+	color: hsl(0, 100%, 27%);
+	font-weight: bold;
+}
+
+footer
+{
+	text-align: center;
+	background-color: hsl(0, 0%, 93%);
+	padding: 3em;
+	margin: 1em;
+}
+
+.BoxMiniImg
+{
+	display: inline-block;
+	border: 1px solid hsl(0, 0%, 93%);
+	margin: 1em;
+	border-collapse: collapse;
+	width: 30%;
+}
+
+.BoxMiniImg img
+{
+	height: 100%;
+	width: 100%;
+	padding: 1em;
+}
+
+.BoxMiniImg p
+{
+	margin-bottom: 1em;
+}
+
+.BoxMiniImg h4
+{
+	font-family: 'Oswald', sans-serif;
+}

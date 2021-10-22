@@ -1,9 +1,9 @@
 html 
 {
        --primary: #228be6;
-       --primary-dark: #1864ab;
+       --primary-gloomy: #1864ab;
        --accent: #F9CA24;
-       --color: #535B6A;
+       --color: #444040;
        --bg: #FFFFFF;
 }
 
@@ -40,6 +40,7 @@ body
        background: var(--bg);
        color: var(--color);
        transition: color 120ms ease-out 0s;
+       background-color: rgba(240, 240, 240, 0.815);
 }
 
 a 
@@ -49,9 +50,15 @@ a
        transition: all 120ms ease-out 0s;
 }
 
+ul 
+{
+       text-decoration: none;
+       list-style-type: circle;
+}
+
 a:hover, a:focus 
 {
-       color: var(--primary-dark);
+       color: var(--primary-gloomy);
 }
 
 .c-oim 
@@ -59,7 +66,7 @@ a:hover, a:focus
        width: 100%;
        max-width: 68rem;
        margin: auto;
-       padding: 15% 2.4rem 0;
+       padding: 8% 2em;
 }
      
 .c-title 
@@ -94,7 +101,7 @@ a:hover, a:focus
           
 .c-social 
 {
-       display: flex;
+       display: block;
        margin-top: 2.4rem;
 }
 
@@ -111,5 +118,10 @@ a:hover, a:focus
 
 .copyright
 {
-       padding: 50px 0;
+       padding: 5% 0;
+}
+
+.button 
+{
+       color: rgb(146, 0, 0); 
 }
