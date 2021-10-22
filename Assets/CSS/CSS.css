@@ -47,7 +47,6 @@ a
 {
        color: var(--primary);
        text-decoration: none;
-       transition: all 120ms ease-out 0s;
 }
 
 ul 
@@ -121,7 +120,7 @@ a:hover, a:focus
        padding: 5% 0;
 }
 
-.button 
+#button 
 {
        color: rgb(146, 0, 0); 
 }
