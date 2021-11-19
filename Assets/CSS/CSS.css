@@ -60,8 +60,10 @@ a:hover, a:focus
        color: var(--primary-gloomy);
 }
 
-.c-oim 
+.c-moi 
 {
+       height: 100%;
+       max-height: 20rem;
        width: 100%;
        max-width: 68rem;
        margin: auto;
